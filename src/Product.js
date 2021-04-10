@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Rating from  './Rating';
 import { Media } from 'react-bootstrap';
 
+
 class Product extends Component  {
 
 	constructor(props) {
@@ -12,6 +13,8 @@ class Product extends Component  {
 	render() {
 		return (
 		 	<div>
+			
+
 			<Media>
   				<img
     					width={64}

@@ -2,8 +2,9 @@ import logo from './logo.svg';
 import React, { Component } from 'react';
 import './App.css';
 import Products from './Products';
+import ButtonBar from './ButtonBar';
 import Rating from './Rating';
-import { Button } from 'react-bootstrap';
+
 
 class App extends Component {
 
@@ -22,6 +23,7 @@ class App extends Component {
 
 		return(
 			<div className="App">
+				<ButtonBar />
 				<Products />
 			</div>
 		);
