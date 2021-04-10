@@ -24,7 +24,7 @@ class Products extends Component {
 					<ul>{listProducts}</ul>
 				}
 
-				{listProducts.length == 0 &&
+				{listProducts.length === 0 &&
 					<ul>No products to display</ul>
 				}
 			</div>
